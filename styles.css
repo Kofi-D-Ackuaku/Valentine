@@ -116,3 +116,11 @@ body
   span {
     animation: heartbeat 2s linear infinite;
   }
+
+  
+@media (max-width: 600px) {
+    .container {
+      width: 100%;
+      
+    }
+  }
