@@ -39,6 +39,10 @@ function showMessage(response) {
     yesMessage.style.fontStyle = "normal";
     document.getElementsByClassName("image")[0].src = "giphy.gif";
 
+    yesMessage.style.animation = "slide-in 1s forwards";
+  
+    
+
     
     document.getElementById("yesButton").remove();
   }
